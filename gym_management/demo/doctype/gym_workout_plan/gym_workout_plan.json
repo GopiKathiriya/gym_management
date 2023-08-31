@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:gym_workout_plan",
+ "creation": "2023-08-23 10:37:30.213608",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "gym_workout_plan",
+  "exercies_section",
+  "gym_workout_plan_exercise",
+  "rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "gym_workout_plan",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Gym Workout Plan",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "exercies_section",
+   "fieldtype": "Section Break",
+   "label": "Exercies"
+  },
+  {
+   "fieldname": "gym_workout_plan_exercise",
+   "fieldtype": "Table",
+   "label": "Gym Workout Plan Exercise Plan",
+   "options": "Gym Workout Plan Exercise"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "label": "Rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-30 17:20:19.828056",
+ "modified_by": "Administrator",
+ "module": "demo",
+ "name": "Gym Workout Plan",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Member",
+   "share": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

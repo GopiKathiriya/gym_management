@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-23 11:25:35.396414",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "day",
+  "exercise_type",
+  "sets",
+  "reps"
+ ],
+ "fields": [
+  {
+   "fieldname": "day",
+   "fieldtype": "Data",
+   "label": "Day"
+  },
+  {
+   "fieldname": "exercise_type",
+   "fieldtype": "Data",
+   "label": "Exercise Type"
+  },
+  {
+   "fieldname": "sets",
+   "fieldtype": "Data",
+   "label": "Sets"
+  },
+  {
+   "fieldname": "reps",
+   "fieldtype": "Data",
+   "label": "Reps"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-08-23 12:55:38.473458",
+ "modified_by": "Administrator",
+ "module": "demo",
+ "name": "Gym Workout Plan Exercise",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

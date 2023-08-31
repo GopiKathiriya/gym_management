@@ -11,11 +11,11 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/gym_management/css/gym_management.css"
+app_include_css = "/assets/gym_management/css/gym_management.css"
 # app_include_js = "/assets/gym_management/js/gym_management.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/gym_management/css/gym_management.css"
+web_include_css = "/assets/gym_management/css/gym_management.css"
 # web_include_js = "/assets/gym_management/js/gym_management.js"
 
 # include custom scss in every website theme (without file extension ".scss")
