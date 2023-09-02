@@ -7,6 +7,13 @@ frappe.ui.form.on('Gym Services', {
 			frappe.new_doc('Trainer Rating', {
 				gym_member: frm.doc.name		//Refrens name
 		})
+		frm.add_custom_button('Go To Payment', ()=>{
+			frappe.new_doc('Gym Payment',{
+				gym_member: frm.doc.name
+			})
+
+		}
+		)
 		
 		})
 	}
