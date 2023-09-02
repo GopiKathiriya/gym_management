@@ -2,10 +2,10 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('Gym Member', {
-	refresh: function(frm) {
-		frm.add_custom_button('Go to Membership',() =>{
+	refresh: function(fm) {
+		fm.add_custom_button('Go to Membership',() =>{
 			frappe.new_doc('Gym Membership', {
-				gym_member: frm.doc.name		
+				gym_member: fm.doc.name		
 		})
 		
 		})
