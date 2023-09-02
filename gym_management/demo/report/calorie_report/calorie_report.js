@@ -28,3 +28,4 @@ frappe.query_reports["Calorie Report"] = {
 	
 	]
 };
+
