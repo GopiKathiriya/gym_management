@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:Rating-{##}",
  "creation": "2023-09-02 17:46:53.560360",
  "default_view": "List",
  "doctype": "DocType",
@@ -25,10 +26,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-02 17:46:53.560360",
+ "modified": "2023-09-02 17:48:52.607400",
  "modified_by": "Administrator",
  "module": "demo",
  "name": "Gym Rating",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
