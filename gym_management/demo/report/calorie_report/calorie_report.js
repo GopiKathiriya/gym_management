@@ -11,19 +11,19 @@ frappe.query_reports["Calorie Report"] = {
 			'options': 'Gym Member'
 		},	
 
-		{
-			'fieldname': 'From Date',
-            'label': 'From Date',
-            'fieldtype': 'Date'
+		// {
+		// 	'fieldname': 'From Date',
+        //     'label': 'From Date',
+        //     'fieldtype': 'Date'
 			
-		},
+		// },
 
-		{
-			'fieldname': 'date',
-            'label':  'Date',
-            'fieldtype': 'Date'
+		// {
+		// 	'fieldname': 'date',
+        //     'label':  'Date',
+        //     'fieldtype': 'Date'
 			
-		}		
+		// }		
 
 	
 	]
