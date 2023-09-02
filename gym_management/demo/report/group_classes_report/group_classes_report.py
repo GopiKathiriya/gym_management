@@ -42,6 +42,7 @@ def get_gym_member(filters=None):
         data.append({"class_type": class_type, "count": count})
 
     return data
+def after_save():
 
 
 
