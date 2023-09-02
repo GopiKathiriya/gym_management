@@ -6,9 +6,10 @@
 
 frappe.ui.form.on('Gym Trainer', {
 	refresh: function(frm) {
-		frm.add_custome_button('Go To Gym Workout Plan', ()=>{
+		frm.add_custom_button('Go To Gym Workout Plan', ()=>{
 			frappe.new_doc('Gym Workout Plan',{
-				gym_member: frm.doc.name			})
+				gym_member: frm.doc.name			
+			})
 
 		}
 		)
