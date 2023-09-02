@@ -6,4 +6,3 @@ from frappe.model.document import Document
 
 class GymRating(Document):
 	pass
-def before_save(self):
