@@ -6,4 +6,4 @@ from frappe.model.document import Document
 
 class ExerciseType(Document):
 	pass
-def after_install(self):
+
