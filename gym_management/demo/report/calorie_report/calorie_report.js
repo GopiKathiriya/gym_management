@@ -9,7 +9,7 @@ frappe.query_reports["Calorie Report"] = {
             'label': 'Gym Member',
             'fieldtype': 'Link',
 			'options': 'Gym Member'
-		},	
+		},
 
 		{
 			'fieldname': 'From Date',
@@ -28,3 +28,4 @@ frappe.query_reports["Calorie Report"] = {
 	
 	]
 };
+

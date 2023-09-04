@@ -84,6 +84,8 @@ def get_customer_metrix(filters):
             data.append(row)
     return data
 
+    
+
 
     
 
